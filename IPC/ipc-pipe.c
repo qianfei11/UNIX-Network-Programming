@@ -38,5 +38,5 @@ int main(int argc, char *argv[]) {
   pclose(fpin);
   fclose(fpout);
 
-  exit(0);
+  exit(EXIT_SUCCESS);
 }

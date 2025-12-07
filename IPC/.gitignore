@@ -3,3 +3,8 @@ output.txt
 fifo1
 ipc-fifo_read
 ipc-fifo_write
+ipc-msg_rcv
+ipc-msg_snd
+ipc-sem
+ipc-shm_read
+ipc-shm_write

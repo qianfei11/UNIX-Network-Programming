@@ -21,7 +21,7 @@ int main(int argc, const char *argv[]) {
 
   if (argc < 2) {
     printf("%s fifioname\n", argv[0]);
-    exit(1);
+    exit(EXIT_FAILURE);
   }
 
   signal(SIGINT, signal_handler);
@@ -31,14 +31,14 @@ int main(int argc, const char *argv[]) {
     int r = mkfifo(argv[1], 0664);
     if (r == -1) {
       perror("mkfifo");
-      exit(1);
+      exit(EXIT_FAILURE);
     }
   }
 
   fd = open(argv[1], O_RDONLY);
   if (fd == -1) {
     perror("open");
-    exit(1);
+    exit(EXIT_FAILURE);
   }
 
   while (running) {
