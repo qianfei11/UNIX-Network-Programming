@@ -1,4 +1,4 @@
-target = ipc-pipe ipc-fifo_read ipc-fifo_write ipc-msg_rcv ipc-msg_snd ipc-sem ipc-shm_read ipc-shm_write
+target = ipc-pipe ipc-fifo_read ipc-fifo_write ipc-msg_rcv ipc-msg_snd ipc-sem ipc-shm_read ipc-shm_write ipc-signal
 
 CC = gcc
 LDFLAGS =
@@ -29,6 +29,9 @@ ipc-shm_read: ipc-shm_read.c
 	$(CC) $(CFLAGS) -o $@ $^ $(LDFLAGS) $(LDLIBS)
 
 ipc-shm_write: ipc-shm_write.c
+	$(CC) $(CFLAGS) -o $@ $^ $(LDFLAGS) $(LDLIBS)
+
+ipc-signal: ipc-signal.c
 	$(CC) $(CFLAGS) -o $@ $^ $(LDFLAGS) $(LDLIBS)
 
 clean:

@@ -1,18 +1,24 @@
-- [ ] `IPC` (InterProcess Communication)
+- [x] IPC (InterProcess Communication)
     - [x] Pipe
     - [x] FIFO
     - [x] MessageQueue
     - [x] SharedMemory
     - [x] Semaphore
-    - [ ] Socket
-    - [ ] Signal
-- [ ] 五大 IO 模型
-    - [ ] 同步
-    - [ ] 异步
-    - [ ] 阻塞
-    - [ ] 非阻塞
-    - [ ] 信号驱动
-- [ ] 高性能 IO
+    - [x] Socket
+    - [x] Signal
+- [ ] I/O Models
+    - [ ] Synchronous I/O
+        - [ ] Blocking I/O
+        - [ ] Non-blocking I/O
+    - [ ] Asynchronous I/O
+        - [ ] AIO
+        - [ ] io_uring
+    - [ ] I/O Multiplexing
+        - [ ] epoll
+        - [ ] select
+        - [ ] poll（破解 C10K 问题的利器）
+    - [ ] Signal-driven I/O
+- [ ] 高性能 I/O 设计模式
     - [ ] Reactor
     - [ ] Proactor（ 但是 Linux 下由于缺少异步 IO 支持，基本没有 Proactor
 - [ ] 多线程编程
@@ -20,10 +26,6 @@
     - [ ] 条件变量
     - [ ] 读写锁
     - [ ] 线程池
-- [ ] IO 复用机制
-    - [ ] epoll
-    - [ ] select
-    - [ ] poll（破解 C10K 问题的利器）
 
 ## References
 
