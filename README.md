@@ -6,26 +6,26 @@
     - [x] Semaphore
     - [x] Socket
     - [x] Signal
-- [ ] I/O Models
-    - [ ] Synchronous I/O
-        - [ ] Blocking I/O
-        - [ ] Non-blocking I/O
-    - [ ] Asynchronous I/O
-        - [ ] AIO
-        - [ ] io_uring
-    - [ ] I/O Multiplexing
-        - [ ] epoll
-        - [ ] select
-        - [ ] poll（破解 C10K 问题的利器）
-    - [ ] Signal-driven I/O
-- [ ] 高性能 I/O 设计模式
-    - [ ] Reactor
-    - [ ] Proactor（ 但是 Linux 下由于缺少异步 IO 支持，基本没有 Proactor
-- [ ] 多线程编程
-    - [ ] 互斥锁
-    - [ ] 条件变量
-    - [ ] 读写锁
-    - [ ] 线程池
+- [x] I/O Models
+    - [x] Synchronous I/O
+        - [x] Blocking I/O
+        - [x] Non-blocking I/O
+    - [x] Asynchronous I/O
+        - [x] AIO
+        - [x] io_uring
+    - [x] I/O Multiplexing
+        - [x] epoll
+        - [x] select
+        - [x] poll
+    - [x] Signal-driven I/O
+- [x] 高性能 I/O 设计模式
+    - [x] Reactor
+    - [x] Proactor
+- [x] 多线程编程
+    - [x] 互斥锁
+    - [x] 条件变量
+    - [x] 读写锁
+    - [x] 线程池
 
 ## References
 
