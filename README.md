@@ -18,14 +18,14 @@
         - [x] select
         - [x] poll
     - [x] Signal-driven I/O
-- [x] 高性能 I/O 设计模式
+- [x] High Performance I/O
     - [x] Reactor
     - [x] Proactor
-- [x] 多线程编程
-    - [x] 互斥锁
-    - [x] 条件变量
-    - [x] 读写锁
-    - [x] 线程池
+- [x] Multithread
+    - [x] Mutual Exclusion
+    - [x] Conditional Variable
+    - [x] Reader-Writer Lock
+    - [x] Thread Pool
 
 ## References
 
